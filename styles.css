@@ -89,7 +89,13 @@ body {
         height: auto; /* 세로 비율을 유지하도록 설정합니다. */
     }
     .text-container {
-        width: 100vw; /* 이미지를 기기의 가로 길이에 딱 맞게 늘립니다. */
-        height: auto; /* 세로 비율을 유지하도록 설정합니다. */
+        width: 100%; /* 텍스트 컨테이너를 부모 요소에 맞춰서 표시 */
+        box-sizing: border-box; /* 패딩 및 테두리를 포함한 전체 너비 유지 */
+        padding: 25px; /* 패딩 추가 */
+        overflow-x: hidden; /* 가로 스크롤을 숨김 */
+    }
+    .container {
+        margin-left: 0; /* 페이지 왼쪽 간격 제거 */
+        margin-right: 0; /* 페이지 오른쪽 간격 제거 */
     }
 }
