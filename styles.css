@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 50px;
+    margin-left: 100px; /* 페이지 왼쪽 간격 */
+    margin-right: 100px; /* 페이지 오른쪽 간격 */
+}
+
+.left-column {
+    flex: 1;
+    height: auto;
+    display: flex;
+    justify-content: top;
+    align-items: top;
+    position: relative; /* 그림자를 위한 상대적 위치 설정 */
+}
+
+.right-column {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.image-text-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    background-color: #4350AF;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.phone-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #003342;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.phone-footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.phone-footer a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .left-column, .right-column {
+        flex: none;
+        width: 100%;
+    }
+}
