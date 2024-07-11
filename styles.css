@@ -103,7 +103,7 @@ body {
         overflow-x: hidden; /* 가로 스크롤을 숨김 */
     }
     .container {
-        margin-left: 10px; /* 페이지 왼쪽 간격 제거 */
-        margin-right: 10px; /* 페이지 오른쪽 간격 제거 */
+        margin-left: 10px; /* 페이지 왼쪽 간격*/
+        margin-right: 10px; /* 페이지 오른쪽 간격*/
     }
 }
