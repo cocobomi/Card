@@ -46,6 +46,14 @@ body {
     height: auto;
 }
 
+.content-text-container {
+    font-size: 40px; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+    color: red; /* Change text color to red */
+    text-align: center; /* Center-align the text */
+    padding: 20px 0; /* Add padding above and below the text */
+}
+
 .text-container {
     background-color: #4350AF;
     color: white;
@@ -95,7 +103,7 @@ body {
         overflow-x: hidden; /* 가로 스크롤을 숨김 */
     }
     .container {
-        margin-left: 0; /* 페이지 왼쪽 간격 제거 */
-        margin-right: 0; /* 페이지 오른쪽 간격 제거 */
+        margin-left: 10px; /* 페이지 왼쪽 간격 제거 */
+        margin-right: 10px; /* 페이지 오른쪽 간격 제거 */
     }
 }
